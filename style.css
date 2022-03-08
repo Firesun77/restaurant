@@ -1,0 +1,61 @@
+body{
+      background-image: url("fond.jpg");
+      background-size:100% 499%;
+      background-repeat: no-repeat;
+      background-position-y: -21%;
+
+  }
+  #logo{
+      height: 90%; width:60% ;
+      display: flex;
+  }
+ 
+  .container {
+    width: 1400 px;
+    border-radius: .5em;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 150px 700px 100px;
+    grid-template-rows: 100px ;
+    
+  }
+  .item {
+  padding: 1px;
+  display: inline-block;
+  vertical-align: middle
+}
+#titre {
+font-weight: bold;
+font-size: 19px;
+align-content: center;
+}
+.Test{
+  padding: 1px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 600px;
+  text-align: right;
+  
+}
+a{
+ margin-left: -6px;
+ padding: 10px;
+
+  text-decoration:none;
+  background-color: rgb(199, 199, 199);
+  
+
+  color: black;
+  border: solid;
+}
+a:hover{
+  background-color: gray;
+}
+.gauche{
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+.droite{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  }

@@ -1,8 +1,7 @@
 body{
       background-image: url("./img/fond.jpg");
-      background-size:100% 499%;
+      background-size:100% 280%;
       background-repeat: no-repeat;
-      background-position-y: -21%;
 
   }
   #logo{
@@ -12,7 +11,6 @@ body{
  
   .container {
     width: 1400 px;
-    border-radius: .5em;
     padding: 10px;
     display: grid;
     grid-template-columns: 150px 700px 100px;
@@ -35,12 +33,12 @@ align-content: center;
   vertical-align: middle;
   width: 600px;
   text-align: right;
+  margin-top: 20px;
   
 }
 a{
  margin-left: -6px;
  padding: 10px;
-
   text-decoration:none;
   background-color: rgb(199, 199, 199);
   
@@ -58,4 +56,10 @@ border-bottom-left-radius: 5px;
 .droite{
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+  }
+  .grid{
+    background-color: white;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: -8px;
   }
